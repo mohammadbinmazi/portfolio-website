@@ -122,7 +122,9 @@ const App = () => {
               >
                 Github
               </a>
-              <a href="mailto:mohammadbinmazi8@gmail.com">Email</a>
+              <a href="https://mail.google.com/mail/?view=cm&to=mohammadbinmazi8@gmail.com">
+                Email
+              </a>
               <a
                 href="https://drive.google.com/file/d/1XiCL_DXdxBgwHAjjZSfUiAJhhfmgLz3e/view?usp=sharing"
                 target="_blank"
