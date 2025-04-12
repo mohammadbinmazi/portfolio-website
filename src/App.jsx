@@ -2,6 +2,7 @@ import { useState } from "react";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import ContactForm from "./pages/ContactForm";
 
 const App = () => {
   const [activeSection, setActiveSection] = useState("home");
