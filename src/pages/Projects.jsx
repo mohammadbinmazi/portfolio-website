@@ -62,7 +62,7 @@ const Projects = () => {
       </div>
 
       {/* Right: Project list */}
-      <div className="w-full md:w-64 space-y-2">
+      <div className="w-full md:w-64 space-y-2 sm:pl-20 sm:-m-10 ">
         {projectList.map((project, index) => (
           <div
             key={index}
