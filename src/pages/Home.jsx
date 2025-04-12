@@ -1,0 +1,21 @@
+const Home = () => {
+  return (
+    <div className="max-w-3xl px-8 py-10 ml-85 mt-32">
+      <p className="text-md leading-relaxed font-semibold text-white text-left">
+        Born in Aurangabad, I’m a passionate full-stack developer with a love
+        for cricket, tech, and turning ideas into reality. With solid experience
+        in React.js for the frontend and Node.js for the backend, I build
+        scalable, user-friendly applications that perform as good as they look.
+        When I’m not coding, you’ll either find me on the cricket field, deep
+        into a good match on TV, or flipping through the pages of a historical
+        book — from ancient empires to modern revolutions, I enjoy learning from
+        the past to stay sharp in the present. I'm always eager to expand my
+        skills, explore new technologies, and collaborate on projects that
+        challenge me. Whether it’s a freelance gig, a team sprint, or a solo
+        build, I bring focus, curiosity, and clean code to the table.
+      </p>
+    </div>
+  );
+};
+
+export default Home;
