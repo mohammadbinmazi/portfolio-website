@@ -1,7 +1,7 @@
 const Home = () => {
   return (
-    <div className="max-w-3xl px-8 py-10 ml-85 mt-32">
-      <p className="text-md leading-relaxed font-semibold text-white text-left">
+    <div className="w-full max-w-4xl px-6 sm:px-10 py-10 mx-auto  sm:mt-30">
+      <p className="text-base sm:text-lg md:text-xl leading-relaxed font-semibold text-white text-left">
         Born in Aurangabad, I’m a passionate full-stack developer with a love
         for cricket, tech, and turning ideas into reality. With solid experience
         in React.js for the frontend and Node.js for the backend, I build

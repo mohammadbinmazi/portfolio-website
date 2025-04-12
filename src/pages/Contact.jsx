@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <div className="flex justify-end items-center h-full w-full pr-4">
-      <div className="flex flex-col space-y-2 text-4xl font-semibold">
+    <div className="flex justify-center md:justify-end items-center h-full w-full px-4 py-10">
+      <div className="flex flex-col items-center md:items-end space-y-4 text-2xl sm:text-3xl md:text-4xl font-semibold text-white">
         <a
           href="https://www.linkedin.com/in/mohammed-bin-mazi-4611212a9/"
           target="_blank"
@@ -18,7 +18,12 @@ const Contact = () => {
         >
           Github
         </a>
-        <a href="https://mail.google.com/mail/?view=cm&to=mohammadbinmazi8@gmail.com">
+        <a
+          href="https://mail.google.com/mail/?view=cm&to=mohammadbinmazi8@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-purple-300 transition-colors"
+        >
           Email
         </a>
         <a
