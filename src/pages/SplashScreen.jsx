@@ -10,9 +10,9 @@ const SplashScreen = ({ onComplete }) => {
   }, [onComplete]);
 
   return (
-    <div className="fixed inset-0 bg-black text-white flex items-center justify-center z-50  ">
+    <div className="fixed inset-0 bg-black text-white flex items-center justify-center z-50 px-4 text-center">
       <h1
-        className={`text-4xl sm:text-5xl font-bold text-purple-300 transition-all duration-700 ease-out  ${
+        className={`text-3xl sm:text-4xl md:text-5xl font-bold text-purple-300 transition-all duration-700 ease-out ${
           showText ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
       >
