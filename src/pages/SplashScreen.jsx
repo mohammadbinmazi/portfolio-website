@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from "react";
 
 const SplashScreen = ({ onComplete }) => {
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      onComplete(); // Notify parent to hide splash
-    }, 2000);
+  const [showText, setShowText] = useState(false);
 
+  useEffect(() => {
+    setTimeout(() => setShowText(true), 100); // Delay animation start
+    const timer = setTimeout(onComplete, 2500);
     return () => clearTimeout(timer);
   }, [onComplete]);
 
   return (
-    <div className="fixed inset-0 bg-black text-white flex items-center justify-center z-50 transition-opacity duration-500 ease-in-out">
-      <h1 className="text-4xl sm:text-5xl font-bold animate-pulse text-purple-300">
-        Welcome to my Portfolio
+    <div className="fixed inset-0 bg-black text-white flex items-center justify-center z-50  ">
+      <h1
+        className={`text-4xl sm:text-5xl font-bold text-purple-300 transition-all duration-700 ease-out  ${
+          showText ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
+        }`}
+      >
+        Welcome to Mohammad Bin Mazi's Portfolio
       </h1>
     </div>
   );

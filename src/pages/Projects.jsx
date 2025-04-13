@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Projects = () => {
   const projectList = [
@@ -34,9 +34,19 @@ const Projects = () => {
   ];
 
   const [selectedProject, setSelectedProject] = useState(projectList[0]);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => setIsVisible(true), 50);
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
-    <div className="flex flex-col-reverse md:flex-row w-full h-full p-6 gap-6 items-center">
+    <div
+      className={`flex flex-col-reverse md:flex-row w-full h-full p-6 gap-6 items-center transform transition-all duration-700 ease-out ${
+        isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+      }`}
+    >
       {/* Left: Project details */}
       <div className="flex-1">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-purple-300">
@@ -62,7 +72,7 @@ const Projects = () => {
       </div>
 
       {/* Right: Project list */}
-      <div className="w-full md:w-64 space-y-2 sm:pl-20 sm:-m-10 ">
+      <div className="w-full md:w-64 space-y-2 sm:pl-20 sm:-m-10">
         {projectList.map((project, index) => (
           <div
             key={index}
