@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div
       className="flex flex-col md:flex-row min-h-screen text-white bg-cover bg-center"
-      style={{ backgroundImage: `url('/public/portfoliobg.gif')` }}
+      style={{ backgroundImage: `url('/portfoliobg.gif')` }}
     >
       {/* Sidebar */}
       <aside className="w-full md:w-60 p-6 bg-black/70 md:bg-transparent flex-shrink-0">
