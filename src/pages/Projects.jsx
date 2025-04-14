@@ -43,7 +43,7 @@ const Projects = () => {
 
   return (
     <div
-      className={`flex flex-col-reverse md:flex-row w-full h-full p-6 gap-6 items-center transform transition-all duration-700 ease-out ${
+      className={`flex flex-col-reverse md:flex-row w-full h-full p-6 gap-6  transform transition-all duration-700 ease-out ${
         isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
       }`}
     >

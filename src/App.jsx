@@ -24,7 +24,7 @@ const App = () => {
     >
       {/* Sidebar */}
       <aside className="w-full md:w-60 p-6 bg-black/70 md:bg-transparent flex-shrink-0">
-        <h1 className="text-2xl font-bold mb-2 text-center md:text-left">
+        <h1 className="text-2xl font-bold mb-2 text-center md:text-left text-purple-300">
           Mohammad
           <br />
           Bin Mazi
@@ -32,7 +32,7 @@ const App = () => {
         <p className="mb-8 text-lg font-semibold text-center md:text-left">
           React/Node
           <br />
-          PERN stack
+          MERN stack
         </p>
 
         <nav className="flex flex-row md:flex-col justify-center md:items-start space-x-6 md:space-x-0 md:space-y-3">
