@@ -17,7 +17,7 @@ const Contact = () => {
     >
       <ContactForm />
 
-      <div className="flex flex-col items-center md:items-start space-y-4 text-xl sm:text-2xl md:text-3xl font-semibold text-white">
+      <div className="flex flex-col  md:items-start justify-end  space-y-4 text-xl sm:text-2xl lg:ml-20 md:text-3xl font-semibold text-white">
         <a
           href="https://www.linkedin.com/in/mohammed-bin-mazi-4611212a9/"
           target="_blank"
