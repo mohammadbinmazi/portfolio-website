@@ -4,7 +4,7 @@ const SplashScreen = ({ onComplete }) => {
   const [showText, setShowText] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setShowText(true), 100); // Delay animation start
+    setTimeout(() => setShowText(true), 100);
     const timer = setTimeout(onComplete, 2500);
     return () => clearTimeout(timer);
   }, [onComplete]);

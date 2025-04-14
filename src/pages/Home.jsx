@@ -19,7 +19,7 @@ const Home = () => {
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
     >
-      <p className="text-base sm:text-lg md:text-xl leading-relaxed font-semibold text-white text-left">
+      <p className="text-base sm:text-lg md:text-xl leading-relaxed font-semibold text-white text-left ">
         Born in Aurangabad, I’m a passionate full-stack developer with a love
         for cricket, tech, and turning ideas into reality. With solid experience
         in React.js for the frontend and Node.js for the backend, I build
