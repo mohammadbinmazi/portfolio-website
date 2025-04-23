@@ -24,7 +24,7 @@ const App = () => {
     >
       {/* Sidebar */}
       <aside className="w-full md:w-60 p-6 bg-black/70 md:bg-transparent flex-shrink-0">
-        <h1 className="text-2xl font-bold mb-2 text-center md:text-left text-purple-300">
+        <h1 className="text-2xl font-bold mb-2 text-center md:text-left ">
           Mohammad
           <br />
           Bin Mazi
