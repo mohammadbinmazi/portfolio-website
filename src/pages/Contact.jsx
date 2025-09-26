@@ -16,7 +16,7 @@ const Contact = () => {
       }`}
     >
       <ContactForm />
-
+{/* helkaflkahjs */}
       <div className="w-full md:w-1/2 flex justify-center md:justify-end">
         <div className="flex flex-col items-center md:items-end justify-end space-y-4 text-xl sm:text-2xl md:text-3xl font-semibold text-white">
           <a
